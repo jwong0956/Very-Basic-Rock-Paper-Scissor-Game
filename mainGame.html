@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="You can reload the page to remove score!">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" type="text/css" href="mainCSS.css">
+</head>
+<body>
+    <h1 id="gameTitle">Rock Paper Scissors</h1>
+    <h2 id="computerText">Computer Choice: <a id="computerChoice">...</a></h2>
+    <h2 id="chooseMoveText">Choose Your Move:</h2>
+    <button id="rock" onclick="rockAnswer()">Rock</button>
+    <button id="paper" onclick="paperAnswer()">Paper</button>
+    <button id="scissors" onclick="scissorAnswer()">Scissors</button>
+    <h2 id="playerScore">Player Score: <a id="playerNum">0</a></h2>
+    <h2 id="computerScore">Computer Score: <a id="computerNum">0</a></h2>
+    <button id="changeColor">Change Random Background Color</button>
+    <script src="rps.js"></script>
+</body>
+</html>
