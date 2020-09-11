@@ -1,0 +1,143 @@
+/*https://www.sitepoint.com/modern-css-buttons/ (Copied It To Help Create Buttons. I will change them in the future.) UPDATED ON 9/10/2020*/
+#rock{
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 0.25rem, 0.5rem;
+    cursor: pointer;
+    color: red;
+    background-color: #993333;
+    font-size: 1.5rem;
+    font-family: 'Atia';
+    font-weight: 100;
+    border: 1px solid #993333;
+    box-shadow: 2px 2px 5px #993333;
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+}
+
+#rock:hover{
+    color: #b62910;
+    border: 1px solid #d40d0d;
+    box-shadow: 2px 2px 8px #cc1e1e;
+}
+
+#paper{
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 0.25rem, 0.5rem;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(206, 200, 200);
+    font-size: 1.5rem;
+    font-family: "Atia";
+    font-weight: 100;
+    border: 1px solid rgba(218, 200, 200, 0.699);
+    box-shadow: 2px 2px 10px rgb(139, 139, 139);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+}
+
+#paper:hover{
+    color: gray;
+    border: 1px solid rgb(77, 75, 75);
+    box-shadow: 2px 2px 8px rgb(78, 78, 78);
+}
+
+#scissors{
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 0.25rem, 0.5rem;
+    cursor: pointer;
+    color: greenyellow;
+    background-color: rgb(19, 228, 64);
+    font-size: 1.5rem;
+    font-family: "Atia";
+    font-weight: 100;
+    border: 1px solid rgba(60, 206, 15, 0.699);
+    box-shadow: 2px 2px 10px rgb(20, 116, 44);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+}
+
+#scissors:hover{
+    color: green;
+    border: 1px solid rgb(27, 136, 24);
+    box-shadow: 2px 2px 8px rgb(12, 116, 34);
+}
+
+#changeColor{
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 0.25rem, 0.5rem;
+    cursor: pointer;
+    color: green;
+    background-color: rgb(228, 19, 19);
+    font-size: 1.5rem;
+    font-family: "Atia";
+    font-weight: 100;
+    border: 1px solid rgba(18, 15, 206, 0.699);
+    box-shadow: 2px 2px 10px rgb(84, 12, 179);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+}
+
+#changeColor:hover{
+    color: rgb(65, 14, 14);
+    border: 1px solid rgb(253, 177, 11);
+    box-shadow: 2px 2px 8px rgb(238, 255, 0);
+}
+
+#resetScore{
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 0.25rem, 0.5rem;
+    cursor: pointer;
+    color: rgb(221, 24, 24);
+    background-color: rgb(158, 78, 78);
+    font-size: 1.5rem;
+    font-family: "Atia";
+    font-weight: 100;
+    border: 1px solid rgba(19, 17, 92, 0.699);
+    box-shadow: 2px 2px 10px rgb(175, 20, 97);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+}
+
+#resetScore:hover{
+    color: rgba(204, 41, 41, 0.562);
+    border: 1px solid rgb(233, 144, 71);
+    box-shadow: 2px 2px 8px rgba(250, 2, 2, 0.747);
+}
+
+#pictures{
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 0.25rem, 0.5rem;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.767);
+    background-color: rgb(18, 100, 16);
+    font-size: 1.5rem;
+    font-family: "Atia";
+    font-weight: 100;
+    border: 1px solid rgba(11, 82, 29, 0.699);
+    box-shadow: 2px 2px 10px rgb(18, 216, 183);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+}
+
+#pictures:hover{
+    color: rgba(231, 235, 23, 0.884);
+    border: 1px solid rgb(223, 158, 19);
+    box-shadow: 2px 2px 8px rgba(199, 118, 13, 0.747);
+}
+
+#changePicture{
+    border: 3px solid darkblue;
+    box-shadow: 3px 3px 10px blue;
+}
